@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>腾讯全端</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet/less" href="./css/index.less">
+</head>
+
+<body>
+    <!-- 头部导航栏 start -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">博客</a></li>
+                    <li><a href="#">github</a></li>
+                    <li><a href="#">Tweb</a></li>
+                    <li><a href="#">superstar</a></li>
+                    <li><a href="#">web前端导航</a></li>
+                    <li><a href="#">关于</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!-- 头部导航栏 end -->
+    <!-- 轮播图 start -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="./uploads/banner_1.jpg" alt="...">
+                <div class="carousel-caption">
+                    <p class="hire-top animate__animated animate__fadeInRight">腾讯AlloyTeam招聘Web+工程师<br>
+                        2020
+                    </p>
+                    <p class="hire-bottom animate__animated animate__fadeInLeft">征不平凡的你</p>
+                </div>
+            </div>
+            <div class="item ">
+                <img src="./uploads/banner_2.jpg" alt="...">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item ">
+                <img src="./uploads/banner_3.jpg" alt="...">
+                <div class="carousel-caption">
+                    <p class="title-top animate__animated animate__fadeInDownBig">Alloy前端周刊</p>
+                    <p class="title-bottom animate__animated animate__fadeInUpBig">为您带来精彩有料的前端好文</p>
+                </div>
+            </div>
+            <div class="item ">
+                <img src="./uploads/banner_4.jpg" alt="...">
+                <div class="carousel-caption">
+                    <p class="title-top animate__animated animate__fadeInDownBig">Omi</p>
+                    <p class="title-bottom animate__animated animate__fadeInUpBig">开放现代的web组件化框架</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- 轮播图 end -->
+    <!-- OpenSource 模块 start-->
+    <section class="openSource">
+        <div class="container o-top">
+            <h2><span>OpenSource /</span> 开源项目</h2>
+            <p>种类众多的开源项目，让你爱不释手</p>
+        </div>
+        <div class="container">
+            <div class="row items">
+                <div class="col-md-3 col-sm-6">
+                    <a href="JavaScript:;">
+                        <img src="./images/omi.png" alt="">
+                        <h3>OMG</h3>
+                        <p>开放现代的Web组件化框架</p>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="JavaScript:;">
+                        <img src="./images/alloyimage.png" alt="">
+                        <h3>Alloyimage</h3>
+                        <p>HTML5专业级图像处理引擎</p>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="JavaScript:;">
+                        <img src="./images/alloytouch.png" alt="">
+                        <h3>Alloytouch</h3>
+                        <p>丝般顺滑的触摸运动方案</p>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="JavaScript:;">
+                        <img src="./images/soda.png" alt="">
+                        <h3>Soda</h3>
+                        <p>高性能模版引擎</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row btn-b">
+                <button class="btn btn-default" type="submit">更多开源 ></button>
+            </div>
+        </div>
+
+    </section>
+    <!-- OpenSource 模块 end-->
+    <!-- Product 模块 start -->
+    <section class="product">
+        <div class="container o-top">
+            <h2><span>Product /</span> 作品</h2>
+            <p>新奇好玩的作品，让你欲罢不能</p>
+        </div>
+        <div class="container">
+            <div class="row items">
+                <div class="col-md-3 col-sm-6">
+                    <a href="JavaScript:;">
+                        <img src="./uploads/codetank.jpg" alt="" title="全世界首个JavaScript程序员的在线编程对战游戏">
+                        <p>CodeTank</p>
+                        <p class="white">全世界首个Javascript程序员的在线编程对战游戏</p>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="JavaScript:;">
+                        <img src="./uploads/alloyphoto.jpg" alt="" title="加入我们成为大牛！无边界技术组织">
+                        <p>AlloyPhoto</p>
+                        <p>专业在线图像处理App</p>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="JavaScript:;">
+                        <img src="./uploads/alloydesigner.png" alt="" title="新概念web开发工具">
+                        <p>AlloyDesigner</p>
+                        <p>新概念web开发工具</p>
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="JavaScript:;">
+                        <img src="./uploads/alloystick.jpg" alt="" title="HTML5骨骼动画引擎">
+                        <p>AlloyStick</p>
+                        <p>HTML5骨骼动画引擎</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row btn-b">
+                <button class="btn btn-default" type="submit">更多作品 ></button>
+            </div>
+        </div>
+    </section>
+    <!-- Product 模块 end -->
+    <!-- Blog 模块 start -->
+    <section class="blog">
+        <div class="container o-top">
+            <h2><span>Blog /</span> 博客</h2>
+            <p>最新技术发展,业界前沿博客</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="i-panel">
+                        <h2>最新博客
+                            <a href="JavaScript:;" class="pull-right">...</a>
+                        </h2>
+
+                        <ul>
+                            <li><a href="JavaScript:;">
+                                    <h4>Omi命令行界面omi-cli发布<span class="pull-right">TAT.dnt</span></h4>
+                                </a></li>
+                            <li><a href="JavaScript:;">
+                                    <h4>从工程化角度讨论如何快速构建可靠React组件<span class="pull-right">TAT.heyli</span></h4>
+                                </a></li>
+                            <li><a href="JavaScript:;">
+                                    <h4>Omi应用md2site发布-markdown转网站利器<span class="pull-right">TAT.dnt</span></h4>
+                                </a></li>
+                            <li><a href="JavaScript:;">
+                                    <h4>线条之美，玩转SVG线条动画<span class="pull-right">TAT.tennylv</span></h4>
+                                </a></li>
+                            <li><a href="JavaScript:;">
+                                    <h4>2017年试试Web组件化框架Omi<span class="pull-right">TAT.dnt</span></h4>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="i-panel">
+                        <h2>博客分类
+                            <a href="JavaScript:;" class="pull-right">...</a>
+                        </h2>
+                        <div>
+                            <div class="blog-category col-sm-6 col-xs-12">
+                                <a href="JavaScript:;">
+                                    <div class="category-icon"><img src="./images/javascript.png" alt=""></div>
+                                    <div class="category-name">
+                                        <h2>Javascript</h2>
+                                        <div>没看过这些，怎么敢说懂js</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="blog-category col-sm-6 col-xs-12"><a href="JavaScript:;">
+                                    <div class="category-icon"><img src="./images/css.png" alt=""></div>
+                                    <div class="category-name name-2">
+                                        <h2>CSS</h2>
+                                        <div>神奇的CSS在哪里？</div>
+                                    </div>
+                                </a></div>
+                            <div class="blog-category col-sm-6 col-xs-12">
+                                <a href="JavaScript:;">
+                                    <div class="category-icon"><img src="./images/nodejs.png" alt=""></div>
+                                    <div class="category-name name-3">
+                                        <h2>Node.js</h2>
+                                        <div>亿万级数据服务的秘密</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="blog-category col-sm-6 col-xs-12">
+                                <a href="JavaScript:;">
+                                    <div class="category-icon"><img src="./images/mobile.png" alt=""></div>
+                                    <div class="category-name">
+                                        <h2>移动Web开发</h2>
+                                        <div>PC转向移动，这是个问题</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="blog-category col-sm-6 col-xs-12">
+                                <a href="JavaScript:;">
+                                    <div class="category-icon"><img src="./images/users.png" alt=""></div>
+                                    <div class="category-name name-5">
+                                        <h2>用户体验设计</h2>
+                                        <div>震惊！原来应用还可以这样设计</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="blog-category col-sm-6 col-xs-12">
+                                <a href="JavaScript:;">
+                                    <div class="category-icon"><img src="./images/performance.png" alt=""></div>
+                                    <div class="category-name ">
+                                        <h2>Web性能优化</h2>
+                                        <div>丝般柔顺体验背后的真相</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog 模块 start -->
+    <!-- SuperStar 模块 start -->
+    <section class="superstar">
+        <div class="container o-top">
+            <h2><span>SuperStar /</span> 超级明星俱乐部</h2>
+            <p>技术达人，最强大脑，前端先驱</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xs-12 items">
+                    <div class="i-head">
+                        <div>
+                            <img src="./uploads/jetyu.jpg" alt="" class="img-circle">
+                            <h3>JetYu 于涛</h3>
+                        </div>
+                    </div>
+                    <div class="desc">AlloyTeam 创始人</div>
+                </div>
+                <div class="col-md-4 col-xs-12 items">
+                    <div class="i-head">
+                        <div>
+                            <img src="./uploads/dntzhang.jpg" alt="" class="img-circle">
+                            <h3>DntZhang 张磊</h3>
+                        </div>
+                    </div>
+                    <div class="desc">知名博主，多个开源框架作者</div>
+                </div>
+
+
+                <div class="col-md-4 col-xs-12 items">
+                    <div class="i-head">
+                        <div>
+                            <img src="./uploads/dorsywang.jpg" alt="" class="img-circle">
+                            <h3>DorsyWang 王斌</h3>
+                        </div>
+                    </div>
+                    <div class="desc">数学达人，图像处理专家</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row btn-b">
+                <button class="btn btn-default" type="submit">更多明星 ></button>
+            </div>
+        </div>
+    </section>
+    <!-- SuperStar 模块 end -->
+    <!-- 底部导航 start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-12 items">
+                    <img src="./images/logo.png" alt="">
+                    <div class="slogan">成为地球卓越的Web团队</div>
+                    <div class="copyright">Copyright© 2022 <a href="JavaScript:;">AlloyTeam.</a>
+                        All Rights Reserved.
+                    </div>
+                    <a href="JavaScript:;" class="icp">粤ICP备15071938号-2</a>
+                </div>
+                <div class="col-md-2 items">
+                    <h4>兄弟团队</h4>
+                    <div>
+                        <a href="JavaScript:;">腾讯CDC</a>
+                        <a href="JavaScript:;">腾讯ISUX</a>
+                        <a href="JavaScript:;">腾讯TGideas</a>
+                        <a href="JavaScript:;">腾讯FERD</a>
+                        <a href="JavaScript:;">百度FEX</a>
+                        <a href="JavaScript:;">淘宝FED</a>
+                    </div>
+                </div>
+                <div class="col-md-2 items">
+                    <h4>友情链接</h4>
+                    <div>
+                        <a href="JavaScript:;">W3CPlus</a>
+                        <a href="JavaScript:;">W3CTech</a>
+                        <a href="JavaScript:;">Web前端开发</a>
+                        <a href="JavaScript:;">前端观察</a>
+                        <a href="JavaScript:;">腾讯大讲堂</a>
+                        <a href="JavaScript:;">牛大拿_前端设计导航</a>
+                        <a href="JavaScript:;">印记中文</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 items">
+                    <img src="./images/weixin-7531e9.gif" alt="">
+                    <img src="./images/weixin-7531e9.gif" alt="">
+                    <p>QQ群：162225981 微信公众号:AlloyTeam</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- 底部导航 end -->
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/less.min.js"></script>
+
+</body>
+
+</html>
